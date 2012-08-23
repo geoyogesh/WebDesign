@@ -1,0 +1,109 @@
+#spectraBanner
+{
+	width: 100%;
+	height: 200px;
+	background-image: url('../images/imgSpectraBannerBg.png');
+	background-repeat: repeat-x;
+}
+
+#spectraMenuBar
+{
+	width: 95%;
+	height: 35px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-image: url('../images/imgSpectraMenuBarBg.png');
+	-webkit-border-radius: 5px;
+	text-align: center;	
+	line-height: 35px;
+}
+#spectraMenuBar ul, #spectraMenuBar li
+{
+	display: inline;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px
+}
+#spectraMenuBar a:link, #spectraMenuBar a:visited
+{
+	color: #ffffff;
+	display: inline;
+	font-weight: bold;
+	font-size: small;
+	margin: 5px;
+	text-decoration: none;
+	padding-bottom: 9px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 7px;
+	text-decoration: underline;
+}
+#spectraMenuBar a:hover 
+{
+	color: #2f6fb6;
+	text-decoration: none;
+	background-color: #ffffff;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-decoration: none;
+}
+#spectraMenuBar a 
+{ 
+	-webkit-transition: color 2s ease-out;
+	-webkit-transition: background 1s ease-out;
+}
+#spectraMenuBar .active a
+{
+	color: #2f6fb6;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: default;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: #ffffff;
+}
+#spectraMenuBar .active a:hover
+{
+	cursor: default;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+
+#spectraBody
+{
+	width: 94.8%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -12px;
+	
+	padding-top: 5px;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width:1px;
+	border-top-width: 0px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+
+#spectraFooter
+{
+	font-size: x-small;
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+}
+
+#GAHeader
+{
+	width: 115px;
+	height: 29px;
+	margin: 30px 0px 0px 20px;
+	background-image: url('../images/imgGArticles.png');
+}
